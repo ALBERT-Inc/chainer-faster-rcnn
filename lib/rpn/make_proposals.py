@@ -18,6 +18,8 @@ _anchors = np.array([
 
 # Translating from prediction to proposals
 # Code taken and modified from https://github.com/rbgirshick/py-faster-rcnn/blob/master/lib/rpn/proposal_layer.py
+# 2016/03 Modification by Tsuguo Mogami
+
 def _filter_boxes(boxes, min_size):
     """Remove all boxes with any side smaller than min_size."""
     ws = boxes[:, 2] - boxes[:, 0] + 1

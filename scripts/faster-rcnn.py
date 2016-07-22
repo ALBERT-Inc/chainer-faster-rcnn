@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # taken and modified from github.com/mitmul/chainer-fast-rcnn/scripts/forward.py
+# 2016/03 Modification by Tsuguo Mogami
 
 import sys
 sys.path.insert(0, 'models')
