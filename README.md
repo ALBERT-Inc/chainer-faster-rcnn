@@ -11,7 +11,7 @@ Chainer 1.6
 1. Clone the Faster R-CNN repository.  
     `hoge`
 
-1. Build the Cython modules(\$FRCN_ROOT is the directory that you cloned Faster R-CNN into)  
+1. Build the Cython modules($FRCN_ROOT is the directory that you cloned Faster R-CNN into)  
 ```
 cd $FRCN_ROOT/lib  
 make
