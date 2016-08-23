@@ -9,17 +9,17 @@ Chainer 1.6
 
 ## Installation
 1. Clone the Faster R-CNN repository.  
-`hoge`
-1. Build the Cython modules($FRCN_ROOT is the directory that you cloned Faster R-CNN into)
-```
-cd $FRCN_ROOT/lib  
-make
-```
+    `hoge`
+
+1. Build the Cython modules(\$FRCN_ROOT is the directory that you cloned Faster R-CNN into)  
+`cd $FRCN_ROOT/lib    
+make`
+
 1. Download pre-trained Faster R-CNN model  
-```
-cd $FRCN_ROOT
+`
+cd $FRCN_ROOT  
 ./scripts/fetch_faster_rcnn_models.sh
-```
+`
 1. Convert model  
 `$ python scripts/convert_vgg16.py`
 
